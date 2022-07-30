@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "is",
+  "version": "1.0.0",
+
+  "name": "Test Mod",
+  "description": "Prueba Fabric mod",
+  "authors": [
+    "ImSanty"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "cc0-1.0",
+  "icon": "assets/is/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.santiaguero.test.TestMod"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
